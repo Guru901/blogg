@@ -1,0 +1,42 @@
+.nav-container {
+  justify-content: space-around !important;
+  background-color: var(--primary);
+}
+
+.nav-left > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.4rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-left > a > h1 {
+  font-size: var(--heading-size-3);
+  text-decoration: none;
+}
+
+.cont-nav-right > ul {
+  gap: 2.9rem;
+  list-style: none;
+}
+
+.cont-nav-right > ul > a {
+  text-decoration: none;
+}
+
+.cont-nav-right > ul > a > li {
+  font-size: 2rem;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}

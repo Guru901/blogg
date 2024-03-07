@@ -1,0 +1,13 @@
+.links {
+  gap: 2.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > p {
+  font-size: 2rem;
+  color: var(--text-color);
+  text-decoration: none;
+}

@@ -1,0 +1,5 @@
+.blog-image {
+  width: 48rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}

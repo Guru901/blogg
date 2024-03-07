@@ -1,0 +1,97 @@
+#main {
+  background-color: #cfffd0;
+}
+
+#main-card {
+  flex-direction: column;
+  position: relative;
+  margin-top: 2rem;
+  width: 80vw;
+  overflow: hidden;
+  height: 80vh;
+  border-radius: 2rem;
+  max-height: 1200px;
+}
+
+#main-card > img {
+  position: absolute;
+  object-fit: cover;
+}
+
+.main-text {
+  position: relative;
+  top: 25rem;
+}
+
+.main-text > h1 {
+  position: relative;
+  font-size: var(--heading-size-1);
+  color: var(--text-color);
+}
+
+#main-body {
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+#main-body {
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+#head-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70rem;
+}
+
+#head-blog > h1 {
+  font-size: var(--heading-size-1);
+}
+#head-blog > a {
+  text-decoration: none;
+}
+
+#head-blog > a > h2 {
+  font-size: var(--heading-size-2);
+  color: var(--text-color);
+}
+
+#blog-chart {
+  gap: 23rem;
+  padding: 2rem;
+  /* align-items: flex-start; */
+}
+
+#card-row-right {
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card > a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.card > a > h1 {
+  font-size: var(--heading-size-3);
+  margin-top: 0.3rem;
+}
+.card > a > h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#card-row-left {
+  flex-direction: column;
+  gap: 3rem;
+}
