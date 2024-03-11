@@ -5,6 +5,7 @@ import "./style.css";
 import axios from "axios";
 import { usePathname } from "next/navigation";
 import Loader from "@/components/Loader/Loader";
+import Image from "next/image";
 
 const Science = () => {
   const [blog, setBlog] = useState();
@@ -44,7 +45,13 @@ const Science = () => {
     <div>
       <div className="absolute-center">
         <div className="hero-card absolute-center">
-          <img src={blog?.image} alt="" />
+          <Image
+            width={1152}
+            height={571}
+            loading="eager"
+            src={blog?.image}
+            alt=""
+          />
         </div>
       </div>
       <div className="main-blog">

@@ -5,6 +5,7 @@ import Link from "next/link";
 import axios from "axios";
 import "./style.css";
 import Loader from "@/components/Loader/Loader";
+import Image from "next/image";
 
 const Blog = () => {
   const [blogs, setBlogs] = useState();
@@ -35,7 +36,13 @@ const Blog = () => {
       {blogs?.map((x) => (
         <div className="card-right card" key={x._id}>
           <Link href={`/blog/${x._id}`}>
-            <img src={x.image} alt="" className="blog-image" />
+            <Image
+              width={480}
+              height={280}
+              src={x.image}
+              alt=""
+              className="blog-image"
+            />
             <h1>{x.title}</h1>
             <h2>{x.des}</h2>
           </Link>
